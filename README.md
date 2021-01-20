@@ -11,7 +11,7 @@ A website designed to present myself
 
 ## Website
 
-https://silverlin19.github.io/my-profile/
+https://silverlin19.github.io/supreme-funicular/
 
 ## Contribution
 
