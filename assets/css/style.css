@@ -1,0 +1,238 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero style start */
+
+.hero{
+  background-image: url("../images/omid-armin-i15TJ2zBh3c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 100%;
+  margin: 3.5%;
+  color: whitesmoke;
+  font: weight 400;;
+  font-size: 18px;
+  line-height: 1.3;
+  border: 3px solid grey;
+  padding: 20px;
+  width: 100%;
+  margin:3.5%;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: whitesmoke;
+  font-weight:bolder ;
+}
+/* HERO STYLES END */
+
+
+
+
+
+
+
+.section-title {
+  font-size: 55px;
+  border-bottom: 3px solid;
+  color: grey;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+
+
+
+
+
+}
+
+
+
+.steps { 
+  background: #fff;
+}
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solidblack ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: grey;
+}
+
+.step-info {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 2 70%;
+}
+
+.step-info a {
+
+cursor:pointer;
+
+
+}
+.step-info a:hover {
+
+opacity: 0.5;
+
+}
+
+.step-text{
+flex: 12;
+
+}
+
+
+
+.run-buddy  {
+  height: 360px; 
+  width: 55%;
+
+}
+
+.passwordGenerator{
+
+  height: 200px; 
+  width: 35%;
+  float: right;
+  border: black solid 1px;
+
+}
+
+.step a {
+
+  justify-content: space-between;
+  margin: 20px 10px;
+
+
+}
+
+.step h3 {
+  font-size: 46px;
+  flex: 1 30%;
+  font-style: italic;
+  border: black 3px ;
+  padding: 10px;
+
+}
+
+.step-text p {
+  color:black ;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: grey;
+}
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color:black ;
+  background-color: whitesmoke;
+}
+
+
+
+
+
+/* <header> styles */
+header {
+  padding: 20px 35px;
+  background-color:black ;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color:darkgoldenrod;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+header nav {
+  margin: 7px 0 0;
+
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+header nav ul li a {
+  padding: 0 10px 0 10px;
+    margin 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+
+
+}
+
+/* Outtro STYLES START */
+.outtro {
+  background:black;
+}
+
+.outtro h2 {
+  color: #fff;
+}
+
+
+/* Outtro STYLES END */
+
+
+footer {
+  background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
+  );  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
